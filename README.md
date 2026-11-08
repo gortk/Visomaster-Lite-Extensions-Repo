@@ -12,3 +12,5 @@ and place it in your "...VisoMaster-Lite\extensions" folder.
 
 A List of links to other extensions github pages will appear here.
 
+
+- If you want to publish yours here send an issue -
