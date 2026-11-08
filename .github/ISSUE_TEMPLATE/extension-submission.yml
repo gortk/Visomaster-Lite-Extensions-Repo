@@ -1,5 +1,5 @@
-name: Extension submission
-description: Submit an extension for inclusion
+name: Extension Url
+description: Submit your extension for inclusion in the list
 title: "[New Extension]: "
 body:
   - type: input
@@ -17,11 +17,11 @@ body:
     validations:
       required: true
       
-  - type: upload
-    id: extension-file
+  - type: input
+    id: url
     attributes:
-      label: Upload the extension ZIP
-      description: Attach the extension as a .zip file.
+      label: Your URL
+      description: Paste your extension link here
     validations:
       required: true
 
