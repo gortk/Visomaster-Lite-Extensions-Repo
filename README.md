@@ -13,3 +13,11 @@ and place it in your "...VisoMaster-Lite\extensions" folder.
 
 You can send a PR OR simply upload a zip file with it in the Issues section with "[NEW EXTENSION]" in the
 title of the issue. I will check it and add it if all is fine. Don't get mad if it takes some time 😁.
+
+The expected format is "...\extension_name\extension.py" and include a readme in it with all the info.
+
+```text
+extension_name/
+├── README.md
+└── extension.py
+```
