@@ -1,0 +1,27 @@
+name: Extension submission
+description: Submit an extension for inclusion
+title: "[New Extension]: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Extension name
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: Briefly describe its purpose and main features
+    validations:
+      required: true
+      
+  - type: upload
+    id: extension-file
+    attributes:
+      label: Upload the extension ZIP
+      description: Attach the extension as a .zip file.
+    validations:
+      required: true
+
